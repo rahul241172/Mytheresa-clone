@@ -1,0 +1,235 @@
+img {
+    width: 100%;
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+#nav_top {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_top>div:nth-child(2) {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#nav_top>div>form>button,
+button {
+    border: 0px;
+    background-color: white;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#nav_top>div>form>button:hover {
+    background-color: rgb(228, 224, 224);
+    cursor: pointer;
+}
+
+#nav_top>div:nth-child(2)>button {
+    font-size: 12px;
+    cursor: pointer;
+}
+#nav_main{
+    width: 90%;
+    margin: auto;
+    border-bottom:  1px solid gray;
+}
+#nav_main>input{
+  margin-left: 100px;
+}
+#nav_main>:nth-child(9){
+    color: red;
+}
+#logo {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#logo img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-left: 400px;
+}
+
+#top {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#top img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#top>div:nth-child(3) {
+    background-color: rgb(240, 231, 231);
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px;
+    border-bottom:  1px solid gray;
+    border-top:  1px solid gray;
+}
+
+#mid {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#mid>div {
+    width: 40%;
+    text-align: center;
+}
+
+#mid_grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom:  1px solid gray;
+  
+}
+
+#mid_grid>div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#mid_grid>div:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom:  1px solid gray;
+}
+
+#mid_grid>div:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#mid2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom:  1px solid gray;
+  
+}
+
+#mid2>div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom:  1px solid gray;
+}
+
+#mid2>div:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#mid2>div:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#bottom{
+    width: 90%;
+    margin: auto;
+   text-align: center;
+   
+  
+}
+
+#bottom>div:nth-child(2){
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.shopnow{
+   padding: 7px 15px 7px 15px;
+    color: white;  
+    background-color: black;
+    cursor: pointer;
+}
+#details{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom:  1px solid gray;
+    border-top:  1px solid gray;
+}
+#details>div:nth-child(1)>h3{
+    text-align: center;
+}
+#details>div:nth-child(2){
+    display: flex;
+    
+}
+#footer{
+    width: 90%;
+    margin: auto;
+    
+    border-bottom:  1px solid gray;
+}
+#footer>h3:nth-child(1){
+    text-align: center;
+    
+}
+#footer>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    border-bottom:  1px solid gray;
+   
+}
+#footer>div:nth-child(2) img{
+    width: 12%;
+    margin-bottom: 30px;
+}
+#footer>div:nth-child(3){
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 5px;
+   margin-bottom: 30px;
+}
+#footer>div:nth-child(3)>div>p{
+    margin: 6px;
+    padding: 0px;
+}

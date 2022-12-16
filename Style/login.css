@@ -1,0 +1,183 @@
+img {
+    width: 100%;
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+#nav_top {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_top>div:nth-child(2) {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#nav_top>div>form>button,
+button {
+    border: 0px;
+    background-color: white;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#nav_top>div>form>button:hover {
+    background-color: rgb(228, 224, 224);
+    cursor: pointer;
+}
+
+#nav_top>div:nth-child(2)>button {
+    font-size: 12px;
+    cursor: pointer;
+}
+#nav_main{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border-bottom:  1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#nav_main>span{
+    rotate: -45deg;
+    color: grey;
+    font-size: 25px;
+}
+#nav_main>ul{
+list-style: none;
+display: flex;
+}
+#nav_main ul li{
+   margin-right: 10px;
+}
+.dropdown{
+    display: none;
+}
+
+#nav_main>input{
+  margin-left: 100px;
+  
+}
+#nav_main ul li:hover .dropdown{
+display: block;
+position: absolute;
+display: flex;
+justify-content: space-between;
+background-color: rgb(214, 211, 211);
+cursor: pointer;
+}
+.dropdown>div{
+    width: 35%;
+    margin: auto;
+}
+.dropdown ul{
+display: block;
+list-style: none;
+}
+.dropdown ul li{
+    margin: 10px;
+    padding: 5px;
+    
+}
+#sale{
+    color: red;
+}
+#logo {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#logo img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-left: 400px;
+}
+#footer{
+    width: 90%;
+    margin: auto;
+    
+    border-bottom:  1px solid gray;
+}
+#footer>h3:nth-child(1){
+    text-align: center;
+    
+}
+#footer>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    border-bottom:  1px solid gray;
+   
+}
+#footer>div:nth-child(2) img{
+    width: 12%;
+    margin-bottom: 30px;
+}
+#footer>div:nth-child(3){
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 5px;
+   margin-bottom: 30px;
+}
+#footer>div:nth-child(3)>div>p{
+    margin: 6px;
+    padding: 0px;
+}
+#account{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    justify-content: space-between;
+    border-bottom:  1px solid gray;
+}
+#account>div{
+width: 48%;
+}
+#Signin{
+    border-left:  1px solid gray;
+    padding-left: 30px;
+   
+}
+#account>div p{
+    line-height: 25px;
+    text-align: justify;
+}
+
+#email,#pass,#firstname,#lastname{
+    text-align: start;
+    margin-top: 10px;
+   padding-right: 200px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 0.5px solid grey;
+}
+#register{
+background-color: #f2f2f2;
+color:  #000;
+font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+padding: 7px 20px;
+border: 0px;
+}
+#login{
+    background-color: #000;
+    color: #f2f2f2;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    padding: 7px 20px;
+border: 0px;
+margin-top: 20px;
+}

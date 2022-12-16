@@ -5,7 +5,6 @@ img {
 body {
     font-family: 'Roboto', sans-serif;
   }
-
 #nav_top {
     width: 95%;
     margin: auto;
@@ -65,7 +64,6 @@ display: flex;
 
 #nav_main>input{
   margin-left: 100px;
-  
 }
 #nav_main ul li:hover .dropdown{
 display: block;
@@ -126,109 +124,20 @@ list-style: none;
     border-bottom:  1px solid gray;
     border-top:  1px solid gray;
 }
-
-#mid {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-top: 30px;
-}
-
-#mid>div {
-    width: 40%;
-    text-align: center;
-}
-
-#mid_grid {
+#products_container{
     width: 90%;
     margin: auto;
     display: grid;
-    gap: 20px;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border-bottom:  1px solid gray;
-  
-}
-
-#mid_grid>div:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#mid_grid>div:nth-child(2) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    border-bottom:  1px solid gray;
-}
-
-#mid_grid>div:nth-child(3) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-#mid2 {
-    width: 90%;
-    margin: auto;
+    gap: 10px;
     margin-top: 20px;
-    display: grid;
-    gap: 20px;
     text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border-bottom:  1px solid gray;
-  
+    grid-template-columns: repeat(3,1fr);
 }
-
-#mid2>div:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    border-bottom:  1px solid gray;
-}
-
-#mid2>div:nth-child(2) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-#mid2>div:nth-child(3) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-#bottom{
-    width: 90%;
-    margin: auto;
-   text-align: center;
-   
-  
-}
-
-#bottom>div:nth-child(2){
-    margin: auto;
-    margin-top: 20px;
-    display: grid;
-    gap: 20px;
-    text-align: center;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-.shopnow{
-   padding: 7px 15px 7px 15px;
-    color: white;  
+.Addcart{
+    color: white;
     background-color: black;
+    margin: 5px;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
 }
 #details{

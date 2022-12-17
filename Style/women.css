@@ -134,6 +134,7 @@ list-style: none;
     text-align: center;
     grid-template-columns: repeat(4,1fr);
 }
+
 #products_container>div>img{
     width: 70%;
     height: 50%;

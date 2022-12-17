@@ -23,6 +23,11 @@ function displaycard(data){
     div.append(imge,nme,pr,del)
     con.append(div)
   });
+  let sum=0
+for(let i=0;i<favr.length;i++){
+  sum+=Number(favr[i].price)
+}
+document.getElementById("subtotal").innerText=sum
 }
 function remove(element,index){
   favr.splice(index,1)

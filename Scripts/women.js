@@ -47,5 +47,7 @@ function displaycard(data){
      })
     div.append(imge,nme,pr,fav)
     cont.append(div)
+    let total=document.getElementById("total")
+total.innerText=favr.length
   });
 }

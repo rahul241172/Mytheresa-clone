@@ -1,6 +1,6 @@
-let url="https://6399840516b0fdad773f4480.mockapi.io/data"
 
-fetch(url)
+
+fetch("./json/men.json")
 .then((res)=> res.json())
 .then((data)=>{
  displaycard(data)
@@ -11,21 +11,19 @@ fetch(url)
 })
 let cont=document.getElementById("products_container")
 let favr=JSON.parse(localStorage.getItem("favourites"))||[]
-let bag=document.getElementById("total")
-bag.innerText=favr.length
 displaycard(data)
 function displaycard(data){
   cont.innerHTML=null
   data.forEach((element,index)=> {
     let div=document.createElement("div")
     let imge=document.createElement("img")
-    imge.setAttribute("src",element.avatar)
+    imge.setAttribute("src",element.image)
     let nme=document.createElement("h2")
-    nme.innerText=element.title
+    nme.innerText=element.brand
     let pr=document.createElement("h2")
     pr.innerText=element.price
     let fav=document.createElement("button")
-     fav.innerText="ADD TO SHOPPING BAG"
+     fav.innerText="ADD TO BAG"
      fav.setAttribute("class","Addcart")
      fav.addEventListener("click",()=>{
       let flag="flase"
@@ -48,7 +46,10 @@ function displaycard(data){
      })
     div.append(imge,nme,pr,fav)
     cont.append(div)
+   
   });
+  let total=document.getElementById("total")
+    total.innerText=favr.length
 }
 // let filter=document.getElementById("filter")
 // let newarr
